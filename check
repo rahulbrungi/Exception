@@ -1,0 +1,16 @@
+public class check {
+
+	public static void main (String args[]) {
+		
+		cars cr = null;
+		
+		try {
+			cr = new cars ("I have a car", 500);
+		
+	}
+	catch (carException e) {
+		System.out.println(e.getMessage());
+	}
+}
+
+}
